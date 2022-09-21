@@ -1,4 +1,27 @@
 .main-div h1 {
-    background-color: orange;
+    background-color: aqua;
     color:white;
 }
+    p{
+        border: 1 px solid royalblue ;
+        border-width: 5px;
+        }  p {
+            border: 2px solid rebeccapurple;
+            border-radius: 50px;
+               }
+       p{
+           border: 1px solid rebeccapurple;
+           width: 500 px;
+           margin: 200px;
+           padding: 50px;
+    }
+    #para1 {
+        color: red;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: uppercase;
+        line-height: 10px;
+        text-indent: 50px;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+    }
