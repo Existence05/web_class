@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 10, 2022 at 05:18 AM
+-- Generation Time: Nov 10, 2022 at 05:17 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,32 +18,33 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `batch 32`
+-- Database: `32b`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `customer`
+-- Table structure for table `32b`
 --
 
-CREATE TABLE `customer` (
-  `Full Name` varchar(255) NOT NULL,
-  `Physical Address` varchar(255) NOT NULL,
-  `Movie Rented` varchar(255) NOT NULL,
-  `Salutation` varchar(255) NOT NULL
+CREATE TABLE `32b` (
+  `first_name` varchar(255) NOT NULL,
+  `Last_name` varchar(255) NOT NULL,
+  `age` int(11) NOT NULL,
+  `fav_song` varchar(255) NOT NULL,
+  `fav_movie` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `customer`
+-- Dumping data for table `32b`
 --
 
-INSERT INTO `customer` (`Full Name`, `Physical Address`, `Movie Rented`, `Salutation`) VALUES
-('Janet Jones', 'First Street Plot NO 4', 'Pirates of the Caribbean', 'Ms'),
-('Janet Jones', 'First Street Plot NO 4', 'Clash of the Titans', 'Ms'),
-('Robert Phill', '3rd Street 34', 'Forgetting Sarah', 'Mr'),
-('Robert Phil', '3rd Street 34', 'Daddy’s Little Girls', 'Mr'),
-('Robert Phil', '5th Avenue', 'Avenue Clash of the Titans', 'Mr');
+INSERT INTO `32b` (`first_name`, `Last_name`, `age`, `fav_song`, `fav_movie`) VALUES
+('Suraj', 'Yadav', 20, 'Don\'t know', 'Don'),
+('Rashmi', 'Shrestha', 20, 'Don\'t know', 'Don3'),
+('Brajesh', 'Magar', 24, 'tatata', 'Don2'),
+('Nilisha', 'Dhakal', 22, 'blabla', 'Welcome'),
+('Bijesh', 'KC', 20, 'lala', 'Welcome2');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
